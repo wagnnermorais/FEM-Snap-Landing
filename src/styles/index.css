@@ -1,22 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap");
 
-:root {
-  --neutral-almost-white: 0, 0%, 98%;
-  --neutral-medium-gray: 0, 0%, 41%;
-  --neutral-almost-black: 0, 0%, 8%;
-  --main-fs: 1.125rem;
-  --fw-medium: 500;
-  --fw-bold: 700;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Epilogue", sans-serif;
-}
-
-body {
-  background: rgb(66, 127, 188);
-  min-height: 100vh;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
