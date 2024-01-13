@@ -52,6 +52,8 @@ O usuários devem ser capazes de:
 
 - [Typescript](https://www.typescriptlang.org/pt/docs/ "Documentação do Typescript")
 
+- [Tailwind CSS](https://tailwindcss.com/docs/installation/ "Documentação do Tailwind")
+
 ### 2. Outras
 
 - [Vite](https://vitejs.dev/guide/ "Documentação do Vite")
