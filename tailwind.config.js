@@ -8,17 +8,23 @@ export default {
         "medium-gray": "hsl(0, 0%, 41%)",
         "almost-black": "hsl(0, 0%, 8%)",
       },
+      width: {
+        55: "55%",
+        45: "45%",
+        65: "65%",
+      },
       maxWidth: {
         1440: "1440px",
       },
       minHeight: {
-        "screen-3/4": "75vh",
+        "screen-4/5": "75vh",
       },
       fontFamily: {
         epilogue: ["Epilogue", "sans-serif"],
       },
       fontSize: {
         mainSize: "1.125rem",
+        heading: "5rem",
       },
       fontWeight: {
         medium: 500,
