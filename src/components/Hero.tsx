@@ -2,19 +2,24 @@ import Companys from "./Companys";
 
 const Hero = () => {
   return (
-    <main className="flex items-center justify-between flex-row-reverse">
-      <div className="min-h-screen-3/4 w-2/4 bg-[url('src/assets/image-hero-desktop.png')] bg-center bg-cover bg-no-repeat"></div>
-      <div className="w-2/4">
-        <h1 className="flex flex-col text-7xl font-bold">
+    <main className="flex items-center justify-between flex-row-reverse w-4/5 m-auto relative">
+      <div className="w-45">
+        <div className="min-h-screen-4/5 w-full bg-[url('src/assets/image-hero-desktop.png')] bg-center bg-contain bg-no-repeat"></div>
+      </div>
+      <div className="w-55">
+        <h1 className="flex flex-col text-heading leading-none font-bold">
           Make <span>remote work</span>
         </h1>
-        <p>Get your team in sync, no matter your location.</p>
-        <p>
-          Streamline processes, create team rituals, and watch productivity
-          soar.
-        </p>
-        <button>Learn more</button>
-        <div className="companys">
+        <div className="my-12">
+          <p className="w-65 text-mainSize font-semibold text-medium-gray text-justify">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <button className="py-4 px-8 text-mainSize font-semibold bg-almost-black text-almost-white rounded-2xl">
+          Learn more
+        </button>
+        <div className="absolute bottom-0">
           <Companys />
         </div>
       </div>
