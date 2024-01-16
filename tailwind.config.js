@@ -17,20 +17,16 @@ export default {
       },
       width: {
         55: "55%",
-        45: "45%",
+        45: "50%",
         70: "70%",
       },
-      maxWidth: {
-        1440: "1440px",
-      },
-      minHeight: {
-        "screen-4/5": "75vh",
+      height: {
+        "4/5": "75vh",
       },
       fontFamily: {
         epilogue: ["Epilogue", "sans-serif"],
       },
       fontSize: {
-        mainSize: "1.125rem",
         heading: "5rem",
       },
       fontWeight: {
