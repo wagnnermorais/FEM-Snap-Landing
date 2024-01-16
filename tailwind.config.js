@@ -2,6 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    //prettier-ignore
+    screens: {
+      "sm": "374px",
+      "md": "784px",
+      "lg": "1024px",
+      "hd": "1440px",
+    },
     extend: {
       colors: {
         "almost-white": "hsl(0, 0%, 98%)",
