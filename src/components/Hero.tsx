@@ -7,11 +7,11 @@ const Hero = () => {
         <div className="min-h-screen-4/5 w-full bg-[url('src/assets/image-hero-desktop.png')] bg-center bg-contain bg-no-repeat"></div>
       </div>
       <div className="w-55">
-        <h1 className="flex flex-col text-heading leading-none font-bold">
+        <h1 className="flex flex-col mt-6 text-heading leading-none font-bold">
           Make <span>remote work</span>
         </h1>
-        <div className="my-12">
-          <p className="w-65 text-mainSize font-semibold text-medium-gray text-justify">
+        <div className="my-10">
+          <p className="w-70 text-mainSize font-semibold text-medium-gray text-justify">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
