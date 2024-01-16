@@ -30,9 +30,6 @@ export default {
         medium: 500,
         bold: 700,
       },
-      borderWidth: {
-        3: "3px",
-      },
     },
   },
   plugins: [],
