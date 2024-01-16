@@ -1,28 +1,17 @@
-import logo from "../assets/logo.svg";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-8 px-8 text-mainSize text-medium-gray font-medium">
+    <header className="flex items-center justify-between py-8 text-mainSize text-medium-gray font-medium">
       <div className="flex items-center gap-12">
         <div>
-          <img src={logo} alt="Snap logo" className="mt-2 cursor-pointer" />
+          <img
+            src="src/assets/logo.svg"
+            alt="Snap logo"
+            className="mt-2 cursor-pointer"
+          />
         </div>
-        <menu>
-          <ul className="flex items-center gap-12">
-            <li className="font-semibold ease-out duration-300 hover:text-almost-black cursor-pointer">
-              Features
-            </li>
-            <li className="font-semibold ease-out duration-300 hover:text-almost-black cursor-pointer">
-              Company
-            </li>
-            <li className="font-semibold ease-out duration-300 hover:text-almost-black cursor-pointer">
-              Careers
-            </li>
-            <li className="font-semibold ease-out duration-300 hover:text-almost-black cursor-pointer">
-              About
-            </li>
-          </ul>
-        </menu>
+        <Navigation />
       </div>
       <div className="flex items-center gap-12">
         <button className="" type="button">
