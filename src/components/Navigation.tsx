@@ -23,8 +23,8 @@ const Navigation = () => {
   };
 
   return (
-    <div className="relative">
-      <menu className="flex items-center gap-8">
+    <div className="relative sm:hidden md:block">
+      <menu className="flex items-center gap-8 md:gap-16">
         <li
           className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black relative"
           onClick={() => handleMenuDrop("features")}
@@ -37,7 +37,7 @@ const Navigation = () => {
                 : "src/assets/icon-arrow-down.svg"
             }
             alt="Arrow Icon"
-            className="mt-0.5"
+            className="mt-0.5 cursor-pointer"
           />
           {isFeaturesDropdownOpen && <Features />}
         </li>
@@ -53,7 +53,7 @@ const Navigation = () => {
                 : "src/assets/icon-arrow-down.svg"
             }
             alt="Arrow Icon"
-            className="mt-0.5"
+            className="mt-0.5 cursor-pointer"
           />
           {isCompanyDropdownOpen && <Company />}
         </li>
