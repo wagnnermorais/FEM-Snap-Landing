@@ -17,11 +17,11 @@ export default {
       },
       width: {
         55: "55%",
-        45: "50%",
+        41: "41%",
         70: "70%",
       },
       height: {
-        "4/5": "75vh",
+        "4/5": "76vh",
       },
       fontFamily: {
         epilogue: ["Epilogue", "sans-serif"],
