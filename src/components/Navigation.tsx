@@ -3,8 +3,10 @@ import Features from "./Dropdown/Features";
 import Company from "./Dropdown/Company";
 
 const Navigation = () => {
-  const [isFeaturesDropdownOpen, setFeaturesDropdownOpen] = useState(false);
-  const [isCompanyDropdownOpen, setCompanyDropdownOpen] = useState(false);
+  const [isFeaturesDropdownOpen, setFeaturesDropdownOpen] =
+    useState<boolean>(false);
+  const [isCompanyDropdownOpen, setCompanyDropdownOpen] =
+    useState<boolean>(false);
 
   const handleMenuDrop = (dropdown: string) => {
     switch (dropdown) {
