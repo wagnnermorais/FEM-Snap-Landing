@@ -12,11 +12,9 @@ const Navigation = () => {
     switch (dropdown) {
       case "features":
         setFeaturesDropdownOpen((prev) => !prev);
-        setCompanyDropdownOpen(false);
         break;
       case "company":
         setCompanyDropdownOpen((prev) => !prev);
-        setFeaturesDropdownOpen(false);
         break;
       default:
         setFeaturesDropdownOpen(false);
