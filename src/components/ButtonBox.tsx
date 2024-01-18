@@ -1,6 +1,6 @@
 const ButtonBox = () => {
   return (
-    <div>
+    <div className="md:flex items-center gap-12 sm:block">
       <button
         className="hover:text-almost-black duration-300 sm:my-2 sm:w-full"
         type="button"
