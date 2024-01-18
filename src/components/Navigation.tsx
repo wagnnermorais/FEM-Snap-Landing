@@ -23,10 +23,10 @@ const Navigation = () => {
   };
 
   return (
-    <div className="relative sm:hidden md:block">
-      <menu className="flex items-center gap-8 md:gap-16">
+    <div className="relative sm:mt-12 sm:mb-6">
+      <menu className="flex items-center gap-8 md:gap-16 sm:block">
         <li
-          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black relative"
+          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black md:relative sm:mb-4"
           onClick={() => handleMenuDrop("features")}
         >
           <a href="#">Features</a>
@@ -39,10 +39,10 @@ const Navigation = () => {
             alt="Arrow Icon"
             className="mt-0.5 cursor-pointer"
           />
-          {isFeaturesDropdownOpen && <Features />}
         </li>
+        {isFeaturesDropdownOpen && <Features />}
         <li
-          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black"
+          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black sm:mb-4"
           onClick={() => handleMenuDrop("company")}
         >
           <a href="#">Company</a>
@@ -55,9 +55,9 @@ const Navigation = () => {
             alt="Arrow Icon"
             className="mt-0.5 cursor-pointer"
           />
-          {isCompanyDropdownOpen && <Company />}
         </li>
-        <li className="font-semibold ease-out duration-300 hover:text-almost-black">
+        {isCompanyDropdownOpen && <Company />}
+        <li className="font-semibold ease-out duration-300 hover:text-almost-black sm:mb-4">
           <a href="#">Careers</a>
         </li>
         <li className="font-semibold ease-out duration-300 hover:text-almost-black">
