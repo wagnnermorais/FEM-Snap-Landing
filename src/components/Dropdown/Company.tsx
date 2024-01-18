@@ -1,6 +1,6 @@
 const Company = () => {
   return (
-    <menu className="flex flex-col gap-4 mt-4 p-6 bg-white shadow-md rounded-xl absolute z-10 top-full">
+    <menu className="flex flex-col gap-4 mt-4 px-6 md:py-6 bg-white md:shadow-md rounded-xl md:absolute md:z-10 top-full sm:pb-4">
       <li>
         <a href="#">History</a>
       </li>
