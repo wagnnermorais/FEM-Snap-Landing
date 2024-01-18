@@ -23,10 +23,10 @@ const Navigation = () => {
   };
 
   return (
-    <div className="relative sm:mt-12 sm:mb-6">
-      <menu className="flex items-center gap-8 md:gap-16 sm:block">
+    <div className="relative md:mt-6 sm:mt-12 sm:mb-6">
+      <menu className="md:flex md:items-center gap-8 md:gap-16 sm:block">
         <li
-          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black md:relative sm:mb-4"
+          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black md:relative md:mb-0 sm:mb-4"
           onClick={() => handleMenuDrop("features")}
         >
           <a href="#">Features</a>
@@ -42,7 +42,7 @@ const Navigation = () => {
         </li>
         {isFeaturesDropdownOpen && <Features />}
         <li
-          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black sm:mb-4"
+          className="flex items-center gap-2 font-semibold ease-out duration-300 hover:text-almost-black md:mb-0 sm:mb-4"
           onClick={() => handleMenuDrop("company")}
         >
           <a href="#">Company</a>
@@ -57,10 +57,10 @@ const Navigation = () => {
           />
         </li>
         {isCompanyDropdownOpen && <Company />}
-        <li className="font-semibold ease-out duration-300 hover:text-almost-black sm:mb-4">
+        <li className="font-semibold ease-out duration-300 hover:text-almost-black md:mb-0 sm:mb-4">
           <a href="#">Careers</a>
         </li>
-        <li className="font-semibold ease-out duration-300 hover:text-almost-black">
+        <li className="font-semibold ease-out duration-300 hover:text-almost-black md:mb-0 sm:mb-4">
           <a href="#">About</a>
         </li>
       </menu>
