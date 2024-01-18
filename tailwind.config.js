@@ -22,6 +22,7 @@ export default {
       },
       height: {
         "4/5": "76vh",
+        "17/20": "85vh",
       },
       fontFamily: {
         epilogue: ["Epilogue", "sans-serif"],
