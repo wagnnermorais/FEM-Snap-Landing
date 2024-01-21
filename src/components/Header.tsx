@@ -34,7 +34,11 @@ const Header = () => {
           className="cursor-pointer"
         />
       </div>
-      {openMenu && <MobileMenu toggleMenu={handleToggleMenu} />}
+      {openMenu && (
+        <div className={`${openMenu ? "opacity-1" : "opacity-0"} duration-200`}>
+          <MobileMenu toggleMenu={handleToggleMenu} />
+        </div>
+      )}
     </header>
   );
 };
