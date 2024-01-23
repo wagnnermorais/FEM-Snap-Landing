@@ -27,6 +27,9 @@ const Header = () => {
       <div className="md:block sm:hidden">
         <ButtonBox />
       </div>
+      <div className="md:hidden">
+        <MobileMenu toggleMenu={handleToggleMenu} isMenuOpen={openMenu} />
+      </div>
       <div className="md:hidden sm:block" onClick={() => handleToggleMenu()}>
         <img
           src="src/assets/icon-menu.svg"
@@ -34,11 +37,6 @@ const Header = () => {
           className="cursor-pointer"
         />
       </div>
-      {openMenu && (
-        <div className={`${openMenu ? "opacity-1" : "opacity-0"} duration-200`}>
-          <MobileMenu toggleMenu={handleToggleMenu} />
-        </div>
-      )}
     </header>
   );
 };
