@@ -1,3 +1,4 @@
 export interface MobileMenuProps {
-  toggleMenu: () => boolean | void;
+  toggleMenu: () => void;
+  isMenuOpen: boolean
 }
