@@ -1,9 +1,6 @@
 import ButtonBox from "./ButtonBox";
 import Navigation from "./Navigation";
-
-interface MobileMenuProps {
-  toggleMenu: () => void;
-}
+import { MobileMenuProps } from "../types/MobileMenuProps";
 
 const MobileMenu = ({ toggleMenu }: MobileMenuProps) => {
   return (
