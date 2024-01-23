@@ -8,7 +8,7 @@ const MobileMenu = ({ toggleMenu, isMenuOpen }: MobileMenuProps) => {
       className={`flex flex-row-reverse w-full min-h-screen fixed top-0 left-0 -translate-x-full transition duration-300 bg-black bg-opacity-50 z-50 ${isMenuOpen ? "translate-x-0" : ""}`}
     >
       <div className="w-2/3 min-h-screen bg-white relative z-10 p-8">
-        <div className="absolute top-4 right-4" onClick={toggleMenu}>
+        <div className="absolute top-10 right-4" onClick={toggleMenu}>
           <img src="src/assets/icon-close-menu.svg" alt="Close Menu Icon" />
         </div>
         <Navigation />
