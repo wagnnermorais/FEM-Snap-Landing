@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Companys from "./Companys";
 
 const Hero = () => {
