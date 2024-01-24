@@ -11,13 +11,13 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between text-lg text-medium-gray font-medium md:px-0 sm:px-4">
+    <header className="flex items-center justify-between py-8 text-lg text-medium-gray font-medium md:px-0 sm:px-4">
       <div className="flex items-center gap-12">
         <div>
           <img
             src="src/assets/logo.svg"
             alt="Snap logo"
-            className="mt-2 py-8 cursor-pointer"
+            className="lg:mt-2 md:mt-4 cursor-pointer"
           />
         </div>
         <div className="lg:block sm:hidden">

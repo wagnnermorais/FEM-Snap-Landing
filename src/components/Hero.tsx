@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <main className="md:flex items-center justify-between flex-row-reverse md:w-11/12 md:h-4/5 mx-auto relative sm:block sm:w-full sm:h-17/20">
       <div className="md:h-full sm:h-2/4 md:w-41 sm:w-full ">
-        <div className="h-full w-full md:bg-[url('src/assets/image-hero-desktop.png')] bg-center bg-cover bg-no-repeat sm:bg-[url('src/assets/image-hero-mobile.png')]"></div>
+        <div className="h-full w-full md:bg-[url('src/assets/image-hero-desktop.png')] bg-center bg-contain bg-no-repeat sm:bg-[url('src/assets/image-hero-mobile.png')]"></div>
       </div>
       <div className="md:w-55 sm:w-full">
         <h1 className="flex flex-col md:w-3/4 mt-6 md:text-heading md:leading-none font-bold md:text-left sm:text-4xl sm:text-center">
@@ -21,7 +21,7 @@ const Hero = () => {
             Learn more
           </button>
         </div>
-        <div className="md:absolute md:bottom-0 sm:mt-6 sm:px-4 sm:pb-8">
+        <div className="md:absolute bottom-0 sm:mt-6 sm:px-4 sm:pb-8">
           <Companys />
         </div>
       </div>
