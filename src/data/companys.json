@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "url": "src/assets/client-databiz.svg"
+    "url": "/client-databiz.svg"
   },
   {
     "id": 2,
-    "url": "src/assets/client-audiophile.svg"
+    "url": "/client-audiophile.svg"
   },
   {
     "id": 3,
-    "url": "src/assets/client-meet.svg"
+    "url": "/client-meet.svg"
   },
   {
     "id": 4,
-    "url": "src/assets/client-maker.svg"
+    "url": "/client-maker.svg"
   }
 ]

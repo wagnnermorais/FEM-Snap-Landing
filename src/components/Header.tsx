@@ -15,7 +15,7 @@ const Header = () => {
       <div className="flex items-center gap-12">
         <div>
           <img
-            src="src/assets/logo.svg"
+            src="/logo.svg"
             alt="Snap logo"
             className="lg:mt-2 md:mt-4 cursor-pointer"
           />
@@ -32,7 +32,7 @@ const Header = () => {
       </div>
       <div className="lg:hidden sm:block" onClick={() => handleToggleMenu()}>
         <img
-          src="src/assets/icon-menu.svg"
+          src="/icon-menu.svg"
           alt="Mobile Menu"
           className="cursor-pointer"
         />

@@ -9,7 +9,7 @@ const MobileMenu = ({ toggleMenu, isMenuOpen }: MobileMenuProps) => {
     >
       <div className="w-2/3 min-h-screen bg-white relative z-10 p-8">
         <div className="absolute top-10 right-4" onClick={toggleMenu}>
-          <img src="src/assets/icon-close-menu.svg" alt="Close Menu Icon" />
+          <img src="/icon-close-menu.svg" alt="Close Menu Icon" />
         </div>
         <Navigation />
         <div className="lg:flex items-center sm:block">

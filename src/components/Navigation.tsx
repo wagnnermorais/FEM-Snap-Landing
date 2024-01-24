@@ -33,8 +33,8 @@ const Navigation = () => {
           <img
             src={
               isFeaturesDropdownOpen
-                ? "src/assets/icon-arrow-up.svg"
-                : "src/assets/icon-arrow-down.svg"
+                ? "/icon-arrow-up.svg"
+                : "/icon-arrow-down.svg"
             }
             alt="Arrow Icon"
             className="mt-0.5 cursor-pointer"
@@ -49,8 +49,8 @@ const Navigation = () => {
           <img
             src={
               isCompanyDropdownOpen
-                ? "src/assets/icon-arrow-up.svg"
-                : "src/assets/icon-arrow-down.svg"
+                ? "/icon-arrow-up.svg"
+                : "/icon-arrow-down.svg"
             }
             alt="Arrow Icon"
             className="mt-0.5 cursor-pointer"
