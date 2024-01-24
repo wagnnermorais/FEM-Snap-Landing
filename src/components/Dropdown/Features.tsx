@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <menu className="flex flex-col gap-2 mt-4 px-6 lg:py-6 md:-left-16 bg-white lg:shadow-md rounded-xl lg:absolute md:z-10 md:top-full duration-300 sm:pb-4">
+    <menu className="flex flex-col gap-2 mt-4 px-6 lg:py-8 md:-left-16 bg-white lg:shadow-md rounded-xl lg:absolute md:z-10 md:top-full duration-300 sm:pb-4">
       <li className="flex items-center gap-4">
         <img src="/icon-todo.svg" alt="List Icon" />
         <a href="#" className="w-24">
