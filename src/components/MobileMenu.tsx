@@ -12,7 +12,7 @@ const MobileMenu = ({ toggleMenu, isMenuOpen }: MobileMenuProps) => {
           <img src="src/assets/icon-close-menu.svg" alt="Close Menu Icon" />
         </div>
         <Navigation />
-        <div className="md:flex items-center gap-12 sm:block">
+        <div className="lg:flex items-center sm:block">
           <ButtonBox />
         </div>
       </div>

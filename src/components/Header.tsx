@@ -20,17 +20,17 @@ const Header = () => {
             className="mt-2 py-8 cursor-pointer"
           />
         </div>
-        <div className="md:block sm:hidden">
+        <div className="lg:block sm:hidden">
           <Navigation />
         </div>
       </div>
-      <div className="md:block sm:hidden">
+      <div className="lg:block sm:hidden">
         <ButtonBox />
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <MobileMenu toggleMenu={handleToggleMenu} isMenuOpen={openMenu} />
       </div>
-      <div className="md:hidden sm:block" onClick={() => handleToggleMenu()}>
+      <div className="lg:hidden sm:block" onClick={() => handleToggleMenu()}>
         <img
           src="src/assets/icon-menu.svg"
           alt="Mobile Menu"
