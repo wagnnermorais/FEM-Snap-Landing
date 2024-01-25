@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between py-8 text-lg text-medium-gray font-medium md:px-0 sm:px-4">
+    <header className="flex items-center justify-between py-4 text-lg text-medium-gray font-medium md:px-0 sm:px-4">
       <div className="flex items-center gap-12">
         <div>
           <img
