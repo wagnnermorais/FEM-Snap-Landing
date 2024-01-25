@@ -31,11 +31,17 @@ Uma landing page com o objetivo de replicar o design fornecido e aplicar o efeit
 
 ## Screenshot
 
-### Em progresso.
+### Desktop
+
+![desktop](https://github.com/wagnnermorais/FEM-Snap-Landing/assets/89792700/f1c440f2-59b8-4e06-9b3b-91a33c38cc74)
+
+### Mobile
+
+![mobile](https://github.com/wagnnermorais/FEM-Snap-Landing/assets/89792700/ca031a6f-9712-4ca6-9776-f0e5ee0e5aee)
 
 ## Links
 
-- URL do site em produção: -- Em progresso --
+- URL do site em produção: https://fem-snap-landing.vercel.app/
 - URL do Frontend Mentor: https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5
 
 ## Funcionalidades
@@ -87,10 +93,12 @@ Também é recomendado a instalação das seguintes extensões para a organizaç
 | Folders | Folders | Description |
 | ---: | ---: | --- |
 | `src/` |               |     |
-|        | `components/` | Componentes reutilizáveis da aplicação. Componentes que são unidades para sua aplicação, um button, um dropdown, um modal, etc. | 
+|        | `components/` | Componentes reutilizáveis da aplicação. Componentes que são unidades para sua aplicação, um button, um dropdown, um modal, etc. |
+|        | `data/`       | Armazena os arquivos de dados JSON da aplicação. |
 |        | `pages/`      | As pages são as páginas que usam vários componentes. É essa a página que o usuário vai ver. |
 |        | `styles/`     | Armazena todas as folhas de estilos da aplicação. |
+|        | `types/`      | Armazena todas as interfaces e types criados em Typescript. |
 
 ## Status Do Projeto
 
-:heavy_check_mark: Projeto em desenvolvimento 💪
+:heavy_check_mark: Projeto finalizado. 💪
