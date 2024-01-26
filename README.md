@@ -29,6 +29,11 @@ Repositório criado para realizar o desafio de front-end do Front-end Mentor.
 
 Uma landing page com o objetivo de replicar o design fornecido e aplicar o efeito de dropdown nos menus de navegação.
 
+A aplicação foi desenvolvida para as seguintes larguras:
+
+- Mobile: 375px
+- Desktop: 1440px
+
 ## Screenshot
 
 ### Desktop
